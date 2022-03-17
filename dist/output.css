@@ -806,6 +806,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     max-width: 32rem;
   }
 
+  .lg\:max-w-xs {
+    max-width: 20rem;
+  }
+
   .lg\:flex-grow {
     flex-grow: 1;
   }
