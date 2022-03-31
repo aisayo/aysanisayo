@@ -521,6 +521,30 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-left: 1rem;
 }
 
+.ml-px {
+  margin-left: 1px;
+}
+
+.mr-px {
+  margin-right: 1px;
+}
+
+.mr-3 {
+  margin-right: 0.75rem;
+}
+
+.mr-10 {
+  margin-right: 2.5rem;
+}
+
+.mr-9 {
+  margin-right: 2.25rem;
+}
+
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -541,8 +565,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 83.333333%;
 }
 
+.w-6\/12 {
+  width: 50%;
+}
+
 .flex-col {
   flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 .items-center {
@@ -654,6 +686,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 1.5rem;
 }
 
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -715,6 +752,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(251 113 133 / var(--tw-text-opacity));
 }
 
+.outline-offset-2 {
+  outline-offset: 2px;
+}
+
+.outline-pink-500 {
+  outline-color: #ec4899;
+}
+
 .hover\:bg-green-600:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(22 163 74 / var(--tw-bg-opacity));
@@ -755,12 +800,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.hover\:outline:hover {
+  outline-style: solid;
+}
+
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
 }
 
 @media (min-width: 640px) {
+  .sm\:w-4\/12 {
+    width: 33.333333%;
+  }
+
   .sm\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
@@ -808,6 +861,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:max-w-xs {
     max-width: 20rem;
+  }
+
+  .lg\:max-w-md {
+    max-width: 28rem;
   }
 
   .lg\:flex-grow {

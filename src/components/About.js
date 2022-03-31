@@ -29,7 +29,7 @@ function About() {
         </div>
         <div className="lg:max-w-xs lg:w-full md:w-1/2 w-5/6">
           <img
-            className="object-cover object-center rounded"
+            className="object-cover object-center rounded hover:outline outline-offset-2 outline-pink-500"
             alt="hero"
             src={img}
           />
